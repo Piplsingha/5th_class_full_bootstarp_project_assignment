@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstarp link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- bootstarp icon link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+    <!-- start navbar section -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+            <a class="navbar-brand text-dark" href="#">Start bootstarp</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+            </button>
+            <div class="collapse navbar-collapse ml-2" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Shop
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">All product</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Popular item</a></li>
+                            <li><a class="dropdown-item" href="#">New Arival</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-outline-success" type="submit">
+                        <i class="bi bi-cart-fill"></i>
+                        <a href="s"><span>Cart</span></a>
+                        <a href=""><span>0</span></a>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- bootstarp icon link -->
+
+    <!-- heading section start  -->
+    <div class="heading py-50">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/body.jpg" class="d-block w-100" alt="background">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/pexels-tim-mossholder-18182736.jpg" class="d-block w-100" alt="background">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/pexels-pratik-gupta-7106844.jpg" class="d-block w-100" alt="background">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- heading section end  -->
+
+    <!-- product informatin section start  -->
+    <section class="Product py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class=" mb-4 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="card h-100">
+                        <img src="img/desktop-wallpaper-cartoon-boy-iphone-cute-cartoon-boys-thumbnail.jpg" alt="">
+                        <div class="card-body py-4">
+                            <div class="text-center p-4">
+                                <h5 class="fw-bold">Fancy Product</h5>
+                                    $40.00 - $80.00
+                            </div>
+                        </div>
+                        <div class="card-footer pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                            <a href="" class="btn btn-outline-dark mt-auto">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" mb-4 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="card h-100">
+                        <div class="badge bg-white text-dark position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                        <img src="img/desktop-wallpaper-cartoon-boy-iphone-cute-cartoon-boys-thumbnail.jpg" alt="">
+                        <div class="card-body py-4">
+                            <div class="text-center p-4">
+                                <h5 class="fw-bold">Fancy Product</h5>
+                                <div class="d-flex justify-content-center text-warning mb-2">
+                                    <div class="bi bi-star-fill"></div>
+                                    <div class="bi bi-star-fill"></div>
+                                    <div class="bi bi-star-fill"></div>
+                                    <div class="bi bi-star-fill"></div>
+                                    <div class="bi bi-star-fill"></div>
+                                </div>
+                                <span class="text-decoration-line-through text-muted small">$40.00</span>
+                                    $80.00
+                            </div>
+                        </div>
+                        <div class="card-footer pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                            <a href="" class="btn btn-outline-dark mt-auto">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" mb-4 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="card h-100">
+                        <div class="badge bg-white text-dark position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                        <img src="img/desktop-wallpaper-cartoon-boy-iphone-cute-cartoon-boys-thumbnail.jpg" alt="">
+                        <div class="card-body py-4">
+                            <div class="text-center p-4">
+                                <h5 class="fw-bold">Fancy Product</h5>
+                                    $40.00 - $80.00
+                            </div>
+                        </div>
+                        <div class="card-footer pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                            <a href="" class="btn btn-outline-dark mt-auto">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" mb-4 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="card h-100">
+                        <img src="img/desktop-wallpaper-cartoon-boy-iphone-cute-cartoon-boys-thumbnail.jpg" alt="">
+                        <div class="card-body py-4">
+                            <div class="text-center p-4">
+                                <h5 class="fw-bold">Fancy Product</h5>
+                                <div class="d-flex justify-content-center text-warning mb-2">
+                                    <div class="bi bi-star-fill"></div>
+                                    <div class="bi bi-star-fill"></div>
+                                    <div class="bi bi-star-fill"></div>
+                                    <div class="bi bi-star-fill"></div>
+                                    <div class="bi bi-star-fill"></div>
+                                </div>
+                                <span class="text-decoration-line-through text-muted small">$40.00</span>
+                                    $80.00
+                            </div>
+                        </div>
+                        <div class="card-footer pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                            <a href="" class="btn btn-outline-dark mt-auto">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" mb-4 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="card h-100">
+                        <img src="img/desktop-wallpaper-cartoon-boy-iphone-cute-cartoon-boys-thumbnail.jpg" alt="">
+                        <div class="card-body py-4">
+                            <div class="text-center p-4">
+                                <h5 class="fw-bold">Fancy Product</h5>
+                                    $40.00 - $80.00
+                            </div>
+                        </div>
+                        <div class="card-footer pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                            <a href="" class="btn btn-outline-dark mt-auto">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" mb-4 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="card h-100">
+                        <div class="badge bg-white text-dark position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                        <img src="img/desktop-wallpaper-cartoon-boy-iphone-cute-cartoon-boys-thumbnail.jpg" alt="">
+                        <div class="card-body py-4">
+                            <div class="text-center p-4">
+                                <h5 class="fw-bold">Fancy Product</h5>
+                                    $40.00 - $80.00
+                            </div>
+                        </div>
+                        <div class="card-footer pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                            <a href="" class="btn btn-outline-dark mt-auto">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" mb-4 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="card h-100">
+                        <div class="badge bg-white text-dark position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                        <img src="img/desktop-wallpaper-cartoon-boy-iphone-cute-cartoon-boys-thumbnail.jpg" alt="">
+                        <div class="card-body py-4">
+                            <div class="text-center p-4">
+                                <h5 class="fw-bold">Fancy Product</h5>
+                                <div class="d-flex justify-content-center text-warning mb-2">
+                                    <div class="bi bi-star-fill"></div>
+                                    <div class="bi bi-star-fill"></div>
+                                    <div class="bi bi-star-fill"></div>
+                                    <div class="bi bi-star-fill"></div>
+                                    <div class="bi bi-star-fill"></div>
+                                </div>
+                                <span class="text-decoration-line-through text-muted small">$40.00</span>
+                                    $80.00
+                            </div>
+                        </div>
+                        <div class="card-footer pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                            <a href="" class="btn btn-outline-dark mt-auto">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" mb-4 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="card h-100">
+                        <img src="img/desktop-wallpaper-cartoon-boy-iphone-cute-cartoon-boys-thumbnail.jpg" alt="">
+                        <div class="card-body py-4">
+                            <div class="text-center p-4">
+                                <h5 class="fw-bold">Fancy Product</h5>
+                                <div class="d-flex justify-content-center text-warning mb-2">
+                                    <div class="bi bi-star-fill"></div>
+                                    <div class="bi bi-star-fill"></div>
+                                    <div class="bi bi-star-fill"></div>
+                                    <div class="bi bi-star-fill"></div>
+                                    <div class="bi bi-star-fill"></div>
+                                </div>
+                                <span class="text-decoration-line-through text-muted small">$40.00</span>
+                                    $80.00
+                            </div>
+                        </div>
+                        <div class="card-footer pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                            <a href="" class="btn btn-outline-dark mt-auto">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product information section end  -->
+    <!-- futter section start  -->
+    <section class="futter bg-dark py-4">
+        <div class="container">
+            <div class="text-center py-5">
+                <h5 class="text-white">Copyright © Your Website 2023 off Pipol Chandra Singha</h5>
+            </div>
+        </div>
+    </section>
+    <!-- futter section end  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
